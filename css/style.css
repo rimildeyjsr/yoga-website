@@ -1,0 +1,224 @@
+/********
+Index.html
+********/
+
+
+/*Hamburgler's css code */
+
+* {
+  
+  font-family: "Courier New",Courier,monospace;
+  -webkit-tap-highlight-color: #2d882d;
+  -webkit-tap-highlight-color: transparent;
+
+
+  /* For some Androids */
+  
+}
+
+.top-animate {
+  background: #2d882d !important;/*color of the cross*/
+  top: 13px !important;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mid-animate {
+  opacity: 0;
+}
+
+.bottom-animate {
+  background: #2d882d !important; /*color of the cross*/
+  top: 13px !important;
+  -webkit-transform: rotate(-225deg);
+  transform: rotate(-225deg);
+}
+
+.top-menu {
+  top: 5px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.mid-menu {
+  top: 13px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.bottom-menu {
+  top: 21px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.menui {
+  background: #2d882d; /* hamburgler's color*/
+  transition: 0.6s ease;
+  transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
+  margin-top: 10px;
+  position: absolute;
+
+}
+
+.icon {
+  
+  z-index: 999;  /*position of the hamburgler*/
+  position: relative;
+  float: right;
+  
+   margin-right: 80px ;
+   margin-top : 20px;
+  display: block;
+  padding: 9px;
+  height: 40px;
+  width: 40px;
+  
+  top: 0;
+  left: 0;
+  
+}
+
+.mobilenav {
+  font-family: inherit;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(234,243,234,0.75); /* background after hamburgler opens up*/
+
+}
+
+.mobilenav li {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.mobilenav li a {
+  font-size: 175%;
+  color: #2d882d; /*color of anchor tags inside hamburgler*/
+  text-decoration: none;
+  font-weight:bold;
+  width: 100%; 
+}
+
+.mobilenav li:first-child {
+  margin-top: 100px;
+}
+
+.navigation .logo img {
+  width: 100px;
+  height: auto;
+   z-index: 999;
+  position: relative;
+  float: left ;
+   margin-left: 10px;
+  display: block;
+  top: 0;
+  left: 0;
+
+}
+
+.logo h4 {
+  z-index: 999;
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 25px;
+  display: block;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+
+}
+
+.navigation {
+  background-color: #ffffff;
+}
+
+.primary  {
+  width: auto;
+  height: 500px;
+  margin :0;
+  background-color: #bfbfbf;
+}
+.primary .slidethru img {
+  height: 400px;
+  width: auto;
+  margin-top: 50px;
+}
+
+/*nav*/
+.top-margin {
+  margin : 5px 0px 0px 0px;
+}
+.navbar{
+  height: 150px;
+  background-color: white;
+}
+
+/*jumbotron*/
+.jumbotron{
+  background-color: transparent;
+}
+
+/**background jumbotron parallax image**/
+.parallax-window {
+  background-image: no-repeat center center;
+  position: absolute;
+  width: 100%;
+  height : 680px;
+  top : 0;
+  left: 0;
+  z-index: -1;
+
+}
+
+.announcement{
+  background-color: #ffcccc;
+  color: #ff0000;
+  font-size: 15px;
+  height: 40px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  top-margin:0px;
+}
+/*info*/
+.info {
+  margin: 650px 80px 0px 80px;
+}
+.info h2{
+  text-align: center;
+  font-size: 40px;
+  font-family: "Roboto Mono",Courier,monospace;
+  margin-bottom: 20px;
+
+}
+
+.info h3{
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/*footer*/
+footer p {
+  margin: 150px 0px 0px 0px;
+  font-family: "Roboto Mono","Courier new",Courier,monospace;
+  text-align: center;
+  background-color: #fff;
+
+}
+
+/**** gallery.html****/
+
+/*gallery-pic*/
+
